@@ -21,7 +21,7 @@ public class DesafioConversao {
         double sal2 = Double.parseDouble(segundoSalario);
         double sal3 = Double.parseDouble(terceiroSalario);
 
-        double media = sal1 + sal2 + sal3 / 3;
+        double media = (sal1 + sal2 + sal3) / 3;
 
         System.out.println("A Média dos seus 3 últimos Salários é: " + media);
 
